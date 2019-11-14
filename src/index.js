@@ -1,5 +1,5 @@
+const newSayHello = require("./say-hello.js");
 const $ = require('jquery');
-const sayHello = () => {
-    console.log("Hello World!");
-};
-sayHello();
+newSayHello.msg();
+
+//npm run build

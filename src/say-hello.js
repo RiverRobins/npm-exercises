@@ -1,3 +1,4 @@
 const msg = () => {
-    return "nice message"
+    return console.log("nice message");
 };
+module.exports = {msg};
